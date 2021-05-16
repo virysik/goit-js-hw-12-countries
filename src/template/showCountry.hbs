@@ -1,0 +1,16 @@
+<div class="thumb">
+<div class="features">
+<h1 class="country">{{name}}</h1>
+      <h2 class="data">Capital: <span class="info">{{capital}}</span></h2>
+      <h2 class="data">Population: <span class="info">{{population}}</span></h2>
+      <h2 class="data">Languages:</h2>
+      <ul class="list">
+          {{#each languages}}
+          <li class="item">{{name}}</li>
+          {{/each}}
+      </ul>
+      </div>
+      <div class="flag">
+          <img src={{flag}} alt={{demonym}} width = "400" >
+      </div>
+      </div>

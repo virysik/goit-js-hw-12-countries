@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 15px;
+  font-family: 'Courier New', Courier, monospace;
+  background: radial-gradient(
+    circle at 0% 0.5%,
+    rgb(241, 241, 242) 0.1%,
+    rgb(224, 226, 228) 100.2%
+  );
+}
+
+img {
+  display: block;
+}
+
+.search {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
+  font-size: 30px;
+  border-radius: 4px;
+  border: 2px solid grey;
+}
+
+.country {
+  font-size: 40px;
+}
+
+.list {
+  margin-left: 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.data {
+  font-size: 28px;
+}
+
+.info {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.thumb {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
